@@ -67,7 +67,7 @@
         }
 
         function criarUrlRepositorio(repositorio) {
-            return '#/repository/' + vm.perfil.login + '/' + repositorio.name;
+            return '#!/repository/' + vm.perfil.login + '/' + repositorio.name;
         }
 
         function exibirLinguagensPorLinhaDeCodigo() {
