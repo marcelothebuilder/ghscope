@@ -39,10 +39,7 @@
     }
 
     function configLocationProvider($locationProvider) {
-        $locationProvider.html5Mode({
-            enabled: true
-            // requireBase: false
-        });
+        $locationProvider.html5Mode(false);
     }
 }());
 
@@ -163,7 +160,7 @@
         }
 
         function criarUrlRepositorio(repositorio) {
-            return '#/repository/' + vm.perfil.login + '/' + repositorio.name;
+            return '#!/repository/' + vm.perfil.login + '/' + repositorio.name;
         }
 
         function exibirLinguagensPorLinhaDeCodigo() {
