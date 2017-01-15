@@ -1,0 +1,33 @@
+body {
+    padding-top: 70px;
+}
+.ghb-avatar {
+    width: 100%;
+    height: 100%;
+}
+.ghb-vcard {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.ghb-vcard-nome {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 12px;
+}
+.ghb-vcard-login {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+    word-wrap: break-word;
+    margin: 0;
+    margin-bottom: 12px
+}
+.ghb-vcard img {
+    border-radius: 6px;
+}
+.panel-charts {
+    text-align: center;
+}
