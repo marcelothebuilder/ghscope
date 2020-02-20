@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dist": "npx gulp build:dist"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,8 @@
     "angular-chart.js": "^1.0.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "bower": "^1.8.8",
+    "gulp": "^4.0.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^2.0.0",
